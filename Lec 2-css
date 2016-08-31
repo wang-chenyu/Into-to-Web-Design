@@ -1,0 +1,37 @@
+html{
+    font-family: Helvetica, Arial, sans-serif; /* fonts stack, use first, if no first in the computer, use second and so on */
+    font-size: 20px;
+    color: cadetblue;
+    background: orange;
+}
+
+header {
+    background: #ccc;
+    background: rgba(0,0,0,0.6); /*(0 r, 0g, 0b and give it 60% of it*/
+    border: 20px solid #889;
+    border-radius: 20%;
+    padding: 10px 6px 20px 30px;
+}
+
+/* font size 
+Default sizes:
+1em = 12pt= 16px= 100% */
+/* good practice: put the general stuff at the top and put the conditional stuff later*/
+
+@media screen and (max-width: 800px){
+    html{
+        font-size: 10px;
+        color:fuchsia;
+    } 
+}
+@media screen and (max-width: 600px){
+    html {
+        font-size: 20px;
+        color:cornflowerblue;
+    }
+    h3 {
+        font-weight: normal;
+        color:aquamarine;
+    }
+}
+     
