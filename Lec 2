@@ -1,0 +1,43 @@
+<!-- lecture 2 -->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Lecture 2 in class practice </title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <!-- can hold the type, css, javascript... something not directly shown but being used univeral -->
+    <body>
+       <header>
+           <h1> This is a header. It helps define internal content as being of elecated importance within the parent element.</h1>
+       </header>
+        <article>
+        <section>
+            <h2>
+            Here is another section</h2>
+             <p>
+            sections are great if we use them well</p>
+        </section>
+        <section>
+            <h2>
+            Here is another section</h2>
+             <p>
+            sections are great if we use them well</p>
+        </section>
+            <aside>
+            <h3> This stuff isn't quite as important </h3>
+            </aside>
+        </article>    
+        <div>
+            <p>
+                This is a div, it can hold nearly anything.
+            </p>
+        </div>
+        <!-- a container to put stuff */ -->
+        <footer>
+            <p> &copy; 2016 me All rights reserved. </p>
+        </footer>
+    </body>
+</html>
+
+
